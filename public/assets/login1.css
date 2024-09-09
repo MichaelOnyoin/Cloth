@@ -1,0 +1,26 @@
+body{   
+    background: #eee;  
+    
+    
+}  
+#frm, #frm2, #form, .delete1,.edit1,.edit2,.delete2,#food,#Editer_food,#edit{  
+    border: solid gray 1px;  
+    width:25%;  
+    border-radius: 15px;  
+    margin: 120px auto;  
+    background: rgb(245, 243, 243);  
+    padding: 50px;
+
+}  
+#btn, #btn2, #save,#btn6{  
+    color: #fff;  
+    background: #337ab7;  
+    padding: 7px;  
+    margin-left: 70%; 
+    border-radius: 10px; 
+} 
+/*.fieldset{
+    display: grid;
+     grid-template-columns:auto auto; 
+     grid-template-rows: auto auto;
+} */

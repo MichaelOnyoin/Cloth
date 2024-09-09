@@ -1,0 +1,1090 @@
+  .navbar{
+  width: 100%;
+  background-color: #130435;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+html
+{
+  height: 100%;
+}
+body
+{
+  min-height: 100%;
+  margin: 0;
+  color: #130435;
+
+}
+button, input[type=submit]
+{
+  background-color: #130435;
+  color: white;
+}
+.navbar img:hover
+{
+  transform: scale(1.5);
+}
+.navbar div{
+  text-align: center;
+  display: inline;
+  font-size: 1.2em;
+  padding: 8px 16px;
+  color: white;
+}
+
+.navbar div a, #admin_options a
+{
+  text-decoration: none;
+  color: white;
+}
+a:hover, button:hover
+{
+  font-size: 21px;
+  transition: 1s ease;
+}
+
+.navbar div a.active
+{
+  color: #3c3cae;
+  font-size: 24px;
+}
+#contain_navbar p
+{
+  color: white;
+}
+
+#portal
+{
+  padding: 100px;
+  width: 50%;
+  margin: auto;
+}
+.tab {
+  overflow: hidden;
+  background-color: #130435;
+  box-shadow: 0 4px 8px 0 rgba(20, 9, 72, 0.5), 0 6px 20px 0 rgb(89, 72, 170);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  color: white;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  color: inherit;
+  float: left;
+  outline: none;
+  cursor: pointer;
+  padding: 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  border: none;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #130435;
+  color: white;
+  font-size: 22px;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #130435;
+  color: white;
+  font-size: 22px;
+
+  color: #3c3cae;
+
+}
+
+/* Style the tab content */
+.tabcontent{
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  box-shadow: 0 4px 8px 0 rgba(20, 9, 72, 0.5), 0 6px 20px 0 rgb(20, 9, 72);
+  }
+.tabcontent2, .tabcontent3, .tabcontent4, .tabcontent5
+{
+  display: none;
+}
+#username, #password, #phone_number,#profile, #name, #email, #location, #new_pwd, #confirm_pwd, #gender, #admin_options select
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: inherit;
+}
+}
+.submit_btn
+{
+  width: 100%;
+  background-color: #130435;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#login_btn
+{
+  width: 50px;
+}
+
+input[type=submit]:hover {
+  background-color: #32406a;;
+}
+
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+#active_link, #hn_item
+{
+  
+  width: 50%;
+  height: 50%;
+}
+
+.slideshow-container
+{
+  max-width: 100%;
+  height: 700px;
+  position: relative;
+  margin: auto;
+  border-radius: 4px;
+  display: block;
+  box-shadow: 0 4px 8px 0 rgba(20, 9, 72, 0.5), 0 6px 20px 0 rgb(20, 9, 72);
+
+}
+
+li a:hover
+{
+  color: grey;
+}
+.mySlides
+{
+  min-width: 935px;
+}
+.mySlides img
+{
+  max-height: 100%;
+  max-height: 700px;
+  object-fit: cover;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.prop_s
+{
+  background-color: white;
+  color: #130435;
+  height: 45px;
+  width: 100%;
+  font-size: 1.6em;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(32, 14, 72, 0.25), 0 6px 20px 0 rgba(23, 11, 157, 0.5);
+}
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+#view_btn
+{
+  width: 80px;
+  box-shadow: 0 4px 8px 0 rgba(20, 9, 72, 0.5), 0 6px 20px 0 rgb(20, 9, 72, 0.5);
+  transition: 1s ease;  
+}
+#view_btn:hover
+{
+  width: 120px;
+  height: 35px;
+}
+#property_details
+{
+  display: block;
+  height: 270px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(20, 9, 72, 0.25), 0 6px 20px 0 rgb(20, 9, 72,0.5);
+  width: 40%;
+  margin: auto;
+  min-width: 40%;
+}
+#owner_dets
+{
+  display: block;
+  height: 270px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(20, 9, 72, 0.25), 0 6px 20px 0 rgb(20, 9, 72,0.5);
+  width: 40%;
+  margin: auto;
+  min-width: 40%;
+  min-height: 450px;
+}
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+p
+{
+  font-size: large;
+}
+.footer
+{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 550px;
+  background-color: #130435;
+  display: block;
+  color: white;
+  padding-top: 15px;
+  overflow: scroll;
+}
+.footer div
+{
+  padding: 7.5px;
+}
+.contact_us 
+{
+  height: 100%;
+  background-color: #130435;
+  display: block;
+  float: left;
+}
+#contact_email, #message
+{
+  width: 250px;
+  padding: 12px 20px;
+  background-color: #130435;
+  color: white;
+}
+#contact_btn
+{
+  font-size: 15px;
+  text-align: center;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 200px;
+  background-color: #130435;
+  height: 40px;
+  margin-top: 10px;
+  color: white;
+}
+#contact_btn:hover
+{
+  background-color: white;
+  color: #130435;
+}
+#contact_form input[type=submit]
+{
+  background-color: #130435;
+  display: block;
+  float: left;
+  color: white;
+  width: 150px;
+  padding: 12px 20px;
+}
+.links
+{
+  width: 15%;
+  display: inline;
+  float: right;
+  padding: 7.5px;
+}
+.links li
+{
+  list-style-type: none;
+}
+.links a
+{
+  font-size: large;
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: white;
+  list-style-type: none;
+}
+.links a:hover
+{
+  font-size: 20px;
+}
+.footer a:hover
+{
+  color: grey;
+  text-decoration: none;
+}
+.footer a:link a:hover
+{
+  font-size: 0.75em;
+  color: white;
+  text-decoration: none;
+}
+
+#footer_top
+{
+  display: block;
+  height: 65%;
+  min-width: 1254px;
+}
+#footer_bottom
+{
+  display: block;
+  height: 20%;
+}
+#footer_socials
+{
+  width: 250px;
+  margin: auto;
+}
+
+#footer_contact_icons
+{
+  width: 100%;
+  margin: auto;
+  float: left;
+
+}
+#footer_contact_icons div
+{
+  display: block;
+  width: 100%;
+  height: 25%;
+}
+#footer_contact_icons div p
+{
+  float: right;
+  width: 75%;
+  min-width: 446px;
+}
+#footer_contact_icons img
+{
+  display: inline;
+  width: 50px;
+}
+#footer_bottom img
+{
+  display: inline;
+  width: 50px;
+  transition: transform 2s ease, color 0.3s ease;
+}
+#footer_bottom img:hover
+{
+transform: translateY(-20px);
+}
+#third_footer
+{
+  display: block;
+  float: right;
+  width: 40%;
+  height: 100%;
+}
+
+.listing
+{
+  display: block;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(20, 9, 72, 0.25), 0 6px 20px 0 rgb(20, 9, 72,0.5);
+  width: 70%;
+  margin: auto;
+}
+
+.listing_image
+{
+  display: inline;
+}
+
+.listing_image img{
+  
+  width: 50%;
+  object-fit: contain;
+  transition: 3s ease;
+  
+}
+.listing_image img:hover
+{
+  transform: scale(2);
+}
+.property_details
+{
+  display: inline;
+  float: right;
+  padding: 16px;
+  margin: auto;
+  text-align: right;
+}
+#prop_dets
+{
+  display: block;
+  float: left;
+  padding: 10px;
+
+}
+#owner_broker
+{
+  display: block;
+  padding: 10px;
+
+}
+
+#news {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+
+#news img {
+  width: 100%;
+  height: auto;
+}
+.container1 {
+  position: relative;
+  width: 33%;
+}
+
+.image {
+  display: inline;
+  width: 33%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  opacity: 0.2;
+  transition: .5s ease;
+  background-color: #130435;
+}
+
+.container1:hover .overlay {
+  opacity: 0.5;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.team_info
+{
+  width: 90%;
+  height: 1000px;
+  margin: auto;
+  min-width: 813px;
+}
+#team_member
+{
+  float: left;
+  width: 33.33%;
+}
+#member_pic
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+.member_info
+{
+  width: 55%;
+  margin: auto;
+}
+.member_info p
+{
+text-align: left;
+}
+.side_navbar
+{
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #130435;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+#admin_navbar
+{
+  list-style-type: none;
+  margin: 0;
+  width: 18%;
+  height: 100%;
+  background-color: #130435;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  position: fixed;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  transition: 0.3s;
+  z-index: 1;
+}
+#admin_navbar button {
+  background-color: #130435;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 16px;
+  transition: 0.3s;
+  font-size: 20px;
+  color: white;
+  display: block;
+  width: 90%;
+  text-align: center;
+  overflow: hidden;
+  border: none;
+}
+
+/* Change background color of buttons on hover */
+#admin_navbar button:hover {
+  background-color: #130435;
+  color: white;
+  font-size: 24px;
+}
+
+/* Create an active/current tablink class */
+#admin_navbar button.active {
+  background-color: #130435;
+  color: white;
+  font-size: 26px;
+  color: #3c3cae;;
+}
+#admin_navbar a
+{
+  display: block;
+  width: 100%;
+  margin: auto;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+#admin_navbar a
+{
+  color: white;
+}
+#admin_navbar a:hover
+{
+color: grey;
+}
+
+#admin_body
+{
+  height: 100%;
+  width: 80%;
+  float: right;
+}
+
+#admin_body_top
+{
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  min-width: 250px;
+  height: 80px;
+  background-color: #130435;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  transition: 0.3s;
+  width: 100%;
+}
+#admin_body_body
+{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#admin_options
+{
+  display: block;
+  width: 100%;
+  float: right;
+  margin: auto;
+}
+#admin_options *
+{
+  float: right;
+  margin: auto;
+}
+#admin_options div
+{
+  background-color: inherit;
+  width: 80px;
+
+}
+#admin_options select
+{
+  width: 30px;
+  background-color: #130435;
+  border-radius: 2px;
+  border-color: white;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+#admin_options div img
+{
+  width: 60px;
+  height: 60px;
+  border: none;
+
+}
+#admin_options p
+{
+  display: inline;
+  width: 80px;
+  float: right;
+  text-align: right;
+}
+.paymethod form input[type=password], .paymethod form input[type=submit], .paymethod form input[type=text], .paymethod form input[type=int]
+{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #bbbac1;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.paymethod form input[type=password]{
+    width: 100%;
+}
+
+#owner_id, .paybtn, #property_name,#property_to_delete, #property_owner, #property_id, #category, #property_price, #property_location, #amenities, #property_name1, #new_name, #new_price, #new_location, #new_amenities, #new_category
+{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #bbbac1;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button, input[type=submit]
+{
+  font-size: 16px;
+}
+.paymethod form input[type=submit], .paymethod form input[type=text], .paymethod form input[type=int], .paymethod form button
+{
+  width: 100%;
+}
+.tabcontent2 select, .submit_btn1, #login_btn, .tabcontent3 input, .tabcontent3 select, .tabcontent4 input, .tabcontent4 select, .tabcontent5 input, .tabcontent5 select
+{
+    width: 625px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+#admin_body_body form
+{
+  width: 80%;
+  margin: auto;
+}
+#admin_body_body form input[type=checkbox]
+{
+  width: 30px;
+}
+
+
+.admin_listing
+{
+  display: block;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(20, 9, 72, 0.25), 0 6px 20px 0 rgb(20, 9, 72,0.5);
+  width: 50%;
+  margin: auto;
+}
+.dashboard_body
+{
+  display: block;
+  width: 98%;
+  margin: auto;
+  height: 50%;
+  overflow: hidden;
+}
+#dashboard_line, #dashboard_map
+{
+  width: 100%;
+  height: 100%;
+  padding: 6px;
+  box-shadow: 0 4px 8px 0 rgba(20, 9, 72, 0.25), 0 6px 20px 0 rgb(20, 9, 72,0.5);
+}
+#dashboard_line
+{
+  float: left;
+}
+#dashboard_map
+{
+  float: right;
+}
+#my-chart.line {
+  height: 200px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+#search_tab
+{
+  width: 95%;
+  min-width: 1022px;
+  color: white;
+  background-color: #130435;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(20, 9, 72, 0.25), 0 6px 20px 0 rgb(20, 9, 72,0.5);
+
+
+}
+#search_tab_top
+{
+  height: 30%;
+}
+#search_middle
+{
+  width: 70%;
+  margin: auto;
+  height: 30%;
+
+}
+#search_price
+{
+  width: 100%;
+}
+
+#search_price:hover
+{
+  opacity:  1;
+}
+#search_tab fieldset
+{
+  height: 100%;
+  
+}
+
+#search_tab select
+{
+  font-size: 15px;
+  text-align: center;
+  width: 33%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+} 
+#search_middle2
+{
+  height: 20%;
+}
+#search_middle22
+{
+  display: flex;
+}
+#search_middle2 input[type=checkbox]
+{
+  padding-left: 10px;
+  padding-right: 0px;
+}
+#search_middle2 label
+{
+  padding-right: 6px;
+  font-size: 18px;
+}
+#search_middle2 div
+{
+  margin: auto;
+}
+#one, #st, #search_middle3, #search_bottom{
+  width: 20%;
+  margin: auto;
+}
+#search_btn, #reset_search, #advance_btn, #one button
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 10px;
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+
+  background-color: inherit;
+  color: inherit;
+}
+
+#one button
+{
+  background-color: #130435;
+  color: white;
+  border: none;
+  font-size: 24px;
+}
+#one button:hover
+{
+  font-size: 28px;
+}
+#search_btn:hover, #advance_btn:hover, #reset_search:hover
+{
+  font-size: 22px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #3c3cae;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+h1
+{
+  text-align: center;
+}
+h2
+{
+  color: grey;
+}
+.button a
+{ 
+  height: 10px;
+  text-decoration: none;
+}
+.container
+{
+  height: 100%;
+  width: 100%;
+  margin: 0px auto;
+  padding: 5px;
+  min-height: 1050px;
+}
+.button-align
+{
+  float: left;
+  width: 48%;
+  padding-left: 90px;
+}
+
+.button
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 60px;
+  border-radius: 9px;
+  overflow: hidden;
+  cursor: pointer;
+  width: 250px; 
+
+}
+      .button:hover
+      {
+        background: #152ead;
+      }
+      .button:active
+      {
+        background: #152ead;
+      }
+      .button-image
+      {
+        display: inline-flex;
+        align-items: center;
+      }
+      .button-text
+      {
+        color: white;
+      }
+.paymethod{
+  position: absolute;
+  right: 120px;
+  width: 382px;
+  overflow: hidden; 
+  margin: auto;
+  padding: 80px;
+  box-shadow: 0 4px 8px 0 rgba(20, 9, 72, 0.25), 0 6px 20px 0 rgb(20, 9, 72,0.5);
+  border-radius: 15px ;
+  font-size: 1.2em;
+  display: none;
+}
+
+#purchases {
+  border-collapse: collapse;
+  width: 98%;
+  margin: auto;
+}
+
+#purchases td, #purchases th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#purchases tr:nth-child(even){background-color: #f2f2f2;}
+
+#purchases tr:hover {background-color: #ddd;}
+
+#purchases th {
+  text-align: center;
+  background-color: #130435;
+  color: white;
+  padding: 20px;
+  font-weight: 300;
+
+
+}
+.owner_listing
+{
+  width: 35%;
+  margin: auto;
+}
